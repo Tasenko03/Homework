@@ -13,7 +13,7 @@ a) Опишите текстом, какие характеристики буд
 e) вызовите методы данного объекта (1 балл)."""
 
 import math
-import random
+
 
 class Cone:
     """This class describes cones. A radius, a height and a slant_height are attributes of the objects of this class.
@@ -35,3 +35,5 @@ print(9888)
 print(45)
 print(33)
 print(888888888888888)
+print(800)
+print(33)
