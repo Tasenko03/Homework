@@ -12,7 +12,7 @@ a) Опишите текстом, какие характеристики буд
 e) вызовите методы данного объекта (1 балл)."""
 
 import math
-
+import random
 
 class Cone:
     """This class describes cones. A radius, a height and a slant_height are attributes of the objects of this class.
