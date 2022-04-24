@@ -12,6 +12,7 @@ a) Опишите текстом, какие характеристики буд
 e) вызовите методы данного объекта (1 балл)."""
 
 import math
+import random
 
 
 class Cone:
@@ -31,5 +32,5 @@ We can find the volume and the full area of surface of the cone."""
 cone = Cone(radius=5, height=10, slant_height=13)
 print(f"\n{Cone.__doc__}\nCone\nRadius: {cone.radius}\nHeight: {cone.height}\nSlant_height: {cone.slant_height}\n"
       f"Volume: {round(cone.calculate_volume(), 1)}\nArea of surface: {round(cone.area_of_surface(), 1)}")
-
+print(area_of_surface)
 
