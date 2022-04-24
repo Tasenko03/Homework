@@ -1,3 +1,4 @@
+
 """Придумайте и напишсвой класс, у объектов которого будут атрибуты и методы.
 
 a) Опишите текстом, какие характеристики будут у объекта этого класса и что этот объект сможет делать (4 балла).
@@ -27,6 +28,12 @@ We can find the volume and the full area of surface of the cone."""
 cone = Cone(radius=5, height=10, slant_height=13)
 print(f"\n{Cone.__doc__}\nCone\nRadius: {cone.radius}\nHeight: {cone.height}\nSlant_height: {cone.slant_height}\n"
       f"Volume: {round(cone.calculate_volume(), 1)}\nArea of surface: {round(cone.area_of_surface(), 1)}")
+
+
+def print():
+    print("ddd")
+
+print()
 print(9888)
 print(45)
 print(33)
@@ -34,3 +41,4 @@ print(888888888888888)
 print(800)
 print(33)
 print(561)
+
