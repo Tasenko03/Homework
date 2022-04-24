@@ -33,3 +33,4 @@ print(f"\n{Cone.__doc__}\nCone\nRadius: {cone.radius}\nHeight: {cone.height}\nSl
       f"Volume: {round(cone.calculate_volume(), 1)}\nArea of surface: {round(cone.area_of_surface(), 1)}")
 print(9888)
 print(45)
+print(33)
