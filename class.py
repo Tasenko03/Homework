@@ -18,7 +18,7 @@ class Cone:
     """This class describes cones. A radius, a height and a slant_height are attributes of the objects of this class.
 We can find the volume and the full area of surface of the cone."""
     def __init__(self, radius, height, slant_height):
-        self.radius, self.height, self.slant_height = radius, height, slant_height
+        self.radius, self.height = radius, height
 
     def calculate_volume(self):
         return 1/3 * math.pi * self.radius ** 2 * self.height
